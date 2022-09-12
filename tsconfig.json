@@ -3,7 +3,7 @@
     "module": "ESNext",
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "declaration": true,
-    "outDir": "./dist/types",
+    "outDir": "./dist/",
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -15,7 +15,8 @@
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "useDefineForClassFields": false,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "rootDir": "./"
   },
   "include": ["src/**/*.ts"]
 }
